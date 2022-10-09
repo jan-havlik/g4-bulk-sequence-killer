@@ -1,14 +1,20 @@
 [tool.poetry]
 name = "g4-bulk-sequence-killer"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["Jan Havlik <jan.havlik@firma.seznam.cz>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
+alive-progress = "^2.4.1"
+openpyxl = "^3.0.10"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.1.2"
+black = "^22.6.0"
+isort = "^5.10.1"
+mypy = "^0.961"
+pylint = "^2.14.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
